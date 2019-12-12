@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Схема метро 2.0</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_wait_time">Время ожидания</string>
+    <string name="action_none">Не учитывать</string>
+    <string name="action_about">О программе</string>
+
+    <string name="full_name">Схема метро 2.0</string>
+    <string name="author_email">Владимир Тихомиров sizikoffps@gmail.com</string>
+    <string name="author2">Создатель приложения Схема метро 1.0</string>
+    <string name="pmetro_info">Проект Схема метро 2.0\nCopyright © Владимир Тихомиров</string>
+    <string name="mapinfo">Информация о карте:</string>
+    <string name="deviceinfo">Информация об устройстве:</string>
+    <string name="version">Версия:</string>
+
+    <string name="title_activity_station_info">Станция не выбрана.</string>
+    <string name="action_transport">Транспорт</string>
+    <string name="settings_general">Общие</string>
+    <string name="settings_catalog">Карты</string>
+    <string name="settings_catalog_sum">Настройки каталога карт.</string>
+    <string name="settings_general_sum">Общие настройки программы.</string>
+    <string name="catalog_storage">Память для карт.</string>
+    <string name="choose_storage">Выберите тип памяти</string>
+    <string name="route_difference">Максимальная разница во времени</string>
+    <string name="route_max_transfers">Максимальное число пересадок</string>
+    <string name="catalog_site">Сайт каталога карт</string>
+    <string name="local_map">Загруженные карты</string>
+    <string name="catalog">Каталог карт</string>
+    <string name="language">Язык</string>
+    <string name="catalog_update">Период обновления карт</string>
+    <string name="catalog_update_now">Обновить карты</string>
+    <string name="catalog_management">Управление картами</string>
+    <string name="last_changes">Дата изменения -</string>
+    <string name="last_update">Дата обновления -</string>
+    <string name="no_data">Нет данных.</string>
+    <string name="city">Город:</string>
+    <string name="modified">Изменено:</string>
+    <string name="comment">Коментарий:</string>
+    <string name="map_name">Название:</string>
+    <string name="kbyte">Кб</string>
+    <string name="catalog_load_file">Загрузить</string>
+    <string name="cancel">Отмена</string>
+    <string name="map_open_file">Открыть</string>
+    <string name="map_delete_file">Удалить</string>
+    <string name="action_open">Открыть карту</string>
+    <string name="choose_station">Выберите станцию:</string>
+    <string name="no_internet">Нет соединения с Интернетом</string>
+    <string name="hintFrom"> От</string>
+    <string name="hintTo"> До</string>
+    <string name="hw_acceleration">Аппаратное ускорение</string>
+    <string name="graphics">Графика</string>
+    <string name="catalog_list">Файл со списком карт</string>
+    <string name="site_map_path">Путь к картам</string>
+
+</resources>

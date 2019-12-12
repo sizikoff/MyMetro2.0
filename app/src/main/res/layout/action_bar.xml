@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- android:background="@drawable/gray_gradient" -->
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@mipmap/ic_swap_horiz"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextFrom"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/imageButton"
+        android:layout_toStartOf="@+id/imageButton"
+        android:inputType="text"
+        android:focusableInTouchMode="true"
+        android:hint="@string/hintFrom"
+        android:textColorHint="@color/colorPrimary"
+        android:background="@color/colorPrimaryDark" />
+
+    <AutoCompleteTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextTo"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imageButton"
+        android:layout_toEndOf="@+id/imageButton"
+        android:inputType="text"
+        android:enabled="true"
+        android:hint="@string/hintTo"
+        android:textColorHint="@color/colorPrimary"
+        android:background="@color/colorPrimaryDark" />
+
+</RelativeLayout>
